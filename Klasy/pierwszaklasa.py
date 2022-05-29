@@ -10,9 +10,9 @@ class Paletka:
 # val = 'Python course'
 # print(f"Rezultat zwracany przez naszą zmienną to {val}")
 # name = 'Rafal'
-# age = 23
+# age = 43
 # print(f"Hello my name is {name} and I am {age} years old")
 def testklasy():
-paletka_a = Paletka():
+paletka_a = Paletka()
 print(f"Obiekt typu {type(paletka_a)} zawiera od razu pewne właściwości i metody:")
 print(dir(paletka_a))
